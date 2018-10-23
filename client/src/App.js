@@ -1,11 +1,29 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+// COMPONENTS
+import Hero from './components/hero/hero'
+import Navbar from './components/navbar/navbar'
+import SideDrawer from './components/navbar/sideDrawer'
+import Backdrop from './components/navbar/backdrop'
+
 import './App.css';
 
 class App extends Component {
   state = {
-    response: ''
+    response: '',
+    sideDrawerOpen: false
   };
+
+  drawerToggleClickHandler = () => {
+    this.setState( (prevState) => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen }
+    })
+  };
+
+  backdropClickHandler = () => {
+    this.setState({ sideDrawerOpen: false })
+  };
+
 
   componentDidMount() {
     this.callApi()
@@ -14,6 +32,7 @@ class App extends Component {
   }
 
   callApi = async () => {
+    // Renders what is at the route /api/hello
     const response = await fetch('/api/hello');
     const body = await response.json();
 
@@ -23,18 +42,17 @@ class App extends Component {
   };
 
   render() {
+    let backDrop;
+
+    if (this.state.sideDrawerOpen) {
+      backDrop = <Backdrop click={this.backdropClickHandler} />
+    }
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>Edit <code>src/App.js</code> and save to reload.</p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >Learn React</a>
-        </header>
+        <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen} />
+        {backDrop}
+        <Hero />
         <p className='App-intro'>{this.state.response}</p>
       </div>
     );
