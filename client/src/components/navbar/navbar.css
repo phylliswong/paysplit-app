@@ -6,7 +6,7 @@
 	left: 0;
 	width: 100%;
 	height: 56px;
-	background: var(--light-blue);
+	background: var(--dark-blue);
 	-webkit-box-shadow: 2px 2px 4px var(--charcoal-color);
 	-moz-box-shadow:    2px 2px 4px var(--charcoal-color);
 	box-shadow:         2px 2px 4px var(--charcoal-color);

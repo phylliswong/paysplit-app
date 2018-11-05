@@ -1,29 +1,30 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 // COMPONENTS
-import Hero from './components/hero/hero'
-import Navbar from './components/navbar/navbar'
-import SideDrawer from './components/navbar/sideDrawer'
-import Backdrop from './components/navbar/backdrop'
+import Hero from "./components/hero/hero";
+import Navbar from "./components/navbar/navbar";
+import SideDrawer from "./components/navbar/sideDrawer";
+import Backdrop from "./components/navbar/backdrop";
+import Mission from "./components/mission/mission";
+import Info from './components/info/info';
 
-import './App.css';
+import "./App.css";
 
 class App extends Component {
   state = {
-    response: '',
+    response: "",
     sideDrawerOpen: false
   };
 
   drawerToggleClickHandler = () => {
-    this.setState( (prevState) => {
-      return { sideDrawerOpen: !prevState.sideDrawerOpen }
-    })
+    this.setState(prevState => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
   };
 
   backdropClickHandler = () => {
-    this.setState({ sideDrawerOpen: false })
+    this.setState({ sideDrawerOpen: false });
   };
-
 
   componentDidMount() {
     this.callApi()
@@ -33,7 +34,7 @@ class App extends Component {
 
   callApi = async () => {
     // Renders what is at the route /api/hello
-    const response = await fetch('/api/hello');
+    const response = await fetch("/api/hello");
     const body = await response.json();
 
     if (response.status !== 200) throw Error(body.message);
@@ -45,7 +46,7 @@ class App extends Component {
     let backDrop;
 
     if (this.state.sideDrawerOpen) {
-      backDrop = <Backdrop click={this.backdropClickHandler} />
+      backDrop = <Backdrop click={this.backdropClickHandler} />;
     }
     return (
       <div className="App">
@@ -53,7 +54,8 @@ class App extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backDrop}
         <Hero />
-        <p className='App-intro'>{this.state.response}</p>
+        <Mission />
+        <Info />
       </div>
     );
   }
