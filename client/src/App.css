@@ -13,3 +13,21 @@
   text-align: center;
 }
 
+header.navbar {
+  display: block;
+}
+
+.mission-component {
+  position: relative;
+  height: 100%;
+}
+.info-component {
+  position: relative;
+  height: 100%;
+}
+
+.team-component {
+  position: relative;
+  top: 600px;
+  height: 100%;
+}
