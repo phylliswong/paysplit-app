@@ -1,0 +1,22 @@
+
+.mission-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	height: 500px;
+	width: 100%;
+}
+
+.mission-container h1 {
+	margin: 0 auto 2rem auto;
+	color: var(--charcoal-color);
+}
+
+.mission-container p {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	margin: 0 auto;
+	width: 400px;
+}

@@ -11,7 +11,8 @@ class Hero extends Component {
           <h1>Welcome to Paysplit</h1>
           <p>An easy way to split the bill between friends</p>
           <div className="call-to-action-btn">
-            <button href="#">Try Paysplit</button>
+            { /*change this redirect link when you have the launched address */}
+            <button><a href='/'>Try Paysplit</a></button>
           </div>
         </hero>
       </div>

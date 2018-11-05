@@ -7,7 +7,8 @@
 .hero {
 	margin: 0;
 	padding: 0;
-	background-image: linear-gradient(rgba(44, 62, 80,.8), rgba(44, 62, 80,.5)), url("https://i.imgur.com/q09ZmBn.jpg");
+	/*background-image: linear-gradient(rgba(44, 62, 80,.8), rgba(44, 62, 80,.5)), url("https://i.imgur.com/q09ZmBn.jpg");*/
+	background-color: var(--medium-blue);
 	background-size: cover;
 	min-height: 100vh;
 	display: flex;
@@ -26,7 +27,7 @@
 .hero p {
 	margin: -1rem;
 	padding: 0;
-	text-shadow: 1px 2px 3px black;
+	text-shadow: 1px 1px black;
 }
 
 .hero button {
@@ -34,14 +35,18 @@
 	padding: 0.5rem 1rem;
 	font-size: 2rem;
 	font-weight: 600;
-	border: 3px solid var(--light-blue);
+	border: 3px solid var(--dark-blue );
 	border-radius: 1.5rem;
 	background-color: white;
-	color: var(--light-blue);
 }
 
 .hero button:focus {
 	outline: none;
+}
+
+.hero a {
+	text-decoration: none;
+	color: var(--dark-blue);
 }
 
 .App-link {

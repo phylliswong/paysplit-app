@@ -1,6 +1,12 @@
 :root {
   --charcoal-color: #282c34;
-  --light-blue: #3ba7ac;
+  --dark-grey: #4A4A4A;
+  --light-blue: #BDDBFF;
+  --medium-blue: #94C5FF;
+  --dark-blue: #4A90E2;
+  --darkest-blue: #007AFF;
+  --medium-green: #BCE9B8;
+  --light-grey: #D8D8D8;
 }
 
 .App {
