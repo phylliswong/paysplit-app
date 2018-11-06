@@ -2,7 +2,14 @@
 .team-container {
 	margin: 3rem;
 	height: 80%;
+}
 
+.team-title {
+	font-weight: 600;
+}
+
+.deck-container {
+	margin: 3rem;
 }
 
 .card-name {
@@ -10,10 +17,22 @@
 	margin-bottom: 1rem;
 }
 
+.card-container {
+	border: 2px solid var(--charcoal-color);
+	border-radius: 2rem;
+}
+
+.card-subtitle {
+	margin-bottom: .5rem;
+}
+
+.card-img {
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
+	top: 0;
+	width: 100%;
+}
 .card-links {
 	bottom: 0;
 }
 
-.deck-container {
-	margin: 3rem;
-}
