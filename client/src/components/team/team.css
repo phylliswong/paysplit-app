@@ -5,6 +5,15 @@
 
 }
 
+.card-name {
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.card-links {
+	bottom: 0;
+}
+
 .deck-container {
 	margin: 3rem;
 }

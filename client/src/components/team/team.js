@@ -11,26 +11,26 @@ const TeamCard = () => {
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
-            <CardTitle>Elliot Oliveira</CardTitle>
+            <CardTitle className={'card-name'}>Elliot Oliveira</CardTitle>
             <CardSubtitle>Project Manager, Lead Engineer</CardSubtitle>
             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content.
               This content is a little bit longer.</CardText>
-            <a href={'https://github.com/BriantOliveira'}>github</a>
+            <a href={'https://github.com/BriantOliveira'} className={'card-links'}>github</a>
           </CardBody>
         </Card>
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
-            <CardTitle>Sam Galizia</CardTitle>
+            <CardTitle className={'card-name'}>Sam Galizia</CardTitle>
             <CardSubtitle>Lead Backend Developer</CardSubtitle>
             <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
-            <a href={'https://github.com/sgalizia'}>github</a>
+            <a href={'https://github.com/sgalizia'} className={'card-links'}>github</a>
           </CardBody>
         </Card>
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
-            <CardTitle>Tony Cioara</CardTitle>
+            <CardTitle className={'card-name'}>Tony Cioara</CardTitle>
             <CardSubtitle>Lead iOS Developer</CardSubtitle>
             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content.
               This card has even longer content than the first to show that equal height action.</CardText>
@@ -42,7 +42,7 @@ const TeamCard = () => {
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
-            <CardTitle>Erik Perez</CardTitle>
+            <CardTitle className={'card-name'}>Erik Perez</CardTitle>
             <CardSubtitle>iOS Developer</CardSubtitle>
             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content.
               This card has even longer content than the first to show that equal height action.</CardText>
@@ -52,7 +52,7 @@ const TeamCard = () => {
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
-            <CardTitle>Phyllis Wong</CardTitle>
+            <CardTitle className={'card-name'}>Phyllis Wong</CardTitle>
             <CardSubtitle>Lead Frontend Developer</CardSubtitle>
             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content.
               This card has even longer content than the first to show that equal height action.</CardText>
@@ -62,11 +62,11 @@ const TeamCard = () => {
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
-            <CardTitle>Johnathan Chen</CardTitle>
+            <CardTitle className={'card-name'}>Johnathan Chen</CardTitle>
             <CardSubtitle>Frontend Developer</CardSubtitle>
             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content.
               This card has even longer content than the first to show that equal height action.</CardText>
-            <a href={'https://github.com/johnathanachen'}>github</a>
+            <a href={'https://github.com/johnathanachen'} className={'card-links'}>github</a>
           </CardBody>
         </Card>
       </CardDeck>
