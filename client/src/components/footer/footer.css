@@ -1,0 +1,13 @@
+.footer-container {
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 3em;
+	margin-top: calc(100vh - 5rem);
+	background-color: var(--dark-blue);
+}
+
+.footer-text {
+	position: relative;
+	color: white;
+}

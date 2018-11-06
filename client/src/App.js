@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 // COMPONENTS
 import Hero from "./components/hero/hero";
 import Navbar from "./components/navbar/navbar";
@@ -7,6 +8,8 @@ import SideDrawer from "./components/navbar/sideDrawer";
 import Backdrop from "./components/navbar/backdrop";
 import Mission from "./components/mission/mission";
 import Info from './components/info/info';
+import TeamCard from './components/team/team';
+import Footer from './components/footer/footer';
 
 import "./App.css";
 
@@ -54,8 +57,16 @@ class App extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backDrop}
         <Hero />
-        <Mission />
-        <Info />
+        <div className={'mission-component'}>
+          <Mission/>
+        </div>
+        <div className={'info-component'}>
+          <Info />
+        </div>
+        <div className={'team-component'}>
+          <TeamCard />
+        </div>
+        <Footer />
       </div>
     );
   }
