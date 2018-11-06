@@ -3,35 +3,38 @@ import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
   CardSubtitle, CardBody } from 'reactstrap';
 import './team.css'
 
-const TeamCard = (props) => {
+const TeamCard = () => {
   return (
-    <div className={'team-container'}>
+    <div className={'team-container'} id={'team-id'}>
+      <h1>Product Development Team</h1>
       <CardDeck className={'deck-container'}>
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
             <CardTitle>Elliot Oliveira</CardTitle>
-            <CardSubtitle>Project Manager, Lead Backend</CardSubtitle>
-            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
-            <Button>Button</Button>
+            <CardSubtitle>Project Manager, Lead Engineer</CardSubtitle>
+            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content.
+              This content is a little bit longer.</CardText>
+            <a href={'https://github.com/BriantOliveira'}>github</a>
           </CardBody>
         </Card>
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
             <CardTitle>Sam Galizia</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
+            <CardSubtitle>Lead Backend Developer</CardSubtitle>
             <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
-            <Button>Button</Button>
+            <a href={'https://github.com/sgalizia'}>github</a>
           </CardBody>
         </Card>
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
-            <CardTitle>Tony Ciora</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-            <Button>Button</Button>
+            <CardTitle>Tony Cioara</CardTitle>
+            <CardSubtitle>Lead iOS Developer</CardSubtitle>
+            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content.
+              This card has even longer content than the first to show that equal height action.</CardText>
+            <a href={'https://github.com/TonyCioara'}>github</a>
           </CardBody>
         </Card>
       </CardDeck>
@@ -40,27 +43,30 @@ const TeamCard = (props) => {
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
             <CardTitle>Erik Perez</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-            <Button>Button</Button>
+            <CardSubtitle>iOS Developer</CardSubtitle>
+            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content.
+              This card has even longer content than the first to show that equal height action.</CardText>
+            <a href={'https://github.com/ErikPerez312'}>github</a>
           </CardBody>
         </Card>
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
             <CardTitle>Phyllis Wong</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-            <Button>Button</Button>
+            <CardSubtitle>Lead Frontend Developer</CardSubtitle>
+            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content.
+              This card has even longer content than the first to show that equal height action.</CardText>
+            <a href={'https://github.com/PhyllisWong'}>github</a>
           </CardBody>
         </Card>
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
             <CardTitle>Johnathan Chen</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-            <Button>Button</Button>
+            <CardSubtitle>Frontend Developer</CardSubtitle>
+            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content.
+              This card has even longer content than the first to show that equal height action.</CardText>
+            <a href={'https://github.com/johnathanachen'}>github</a>
           </CardBody>
         </Card>
       </CardDeck>
@@ -68,21 +74,6 @@ const TeamCard = (props) => {
   );
 };
 
-function Elliot() {
-  return <h1>Elliot Oliveira</h1>;
-}
-function Erik() {
-  return <h1>Erik Perez</h1>
-}
-function Tony() {
-  return <h1>Tony Ciora</h1>
-}
-function Sam() {
-  return <h1>Sam Galizia</h1>
-}
-function Phyllis() {
-  return <h1>Phyllis Wong</h1>
-}
 
 export default TeamCard;
 
