@@ -13,6 +13,10 @@
   text-align: center;
 }
 
+.body {
+  min-height: 100%;
+}
+
 header.navbar {
   display: block;
 }
