@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import './info.css'
+import './info.css';
+
 
 class Info extends Component {
   render() {
@@ -9,6 +10,6 @@ class Info extends Component {
       </div>
     )
   }
-}
+};
 
 export default Info

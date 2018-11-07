@@ -1,10 +1,15 @@
 .footer-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
 	clear: both;
 	position: relative;
 	z-index: 10;
-	height: 3em;
+	height: 5em;
 	margin-top: calc(100vh - 5rem);
 	background-color: var(--dark-blue);
+	padding-top: 1rem;
 }
 
 .footer-text {
