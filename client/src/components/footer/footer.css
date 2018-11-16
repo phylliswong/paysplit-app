@@ -7,7 +7,7 @@
 	position: relative;
 	z-index: 10;
 	height: 5em;
-	margin-top: calc(100vh - 5rem);
+	margin-top: calc(100vh);
 	background-color: var(--dark-blue);
 	padding-top: 1rem;
 }
