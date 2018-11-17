@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import './footer.css'
+import { Link } from 'react-router-dom'
 
 
 class Footer extends Component {
   render() {
     return(
       <div className={'footer-container'}>
-        <p className={'footer-text'}>Hello World</p>
+        <p className="white" align="center">This Is Copyrighted</p>
       </div>
     )
   }

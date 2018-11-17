@@ -35,3 +35,12 @@ header.navbar {
   top: 600px;
   height: 100%;
 }
+
+.white {
+  color: white;
+}
+
+
+.md-margin-top {
+  padding-top: 5rem;
+}

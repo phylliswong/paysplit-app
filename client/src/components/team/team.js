@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
   CardSubtitle, CardBody } from 'reactstrap';
 import './team.css'
+import Navbar from '../navbar/navbar.js'
 
 const TeamCard = () => {
   return (
-    <div className={'team-container'} id={'team-id'}>
-      <h1>Product Development Team</h1>
+    <div className={'react-transition rotate-in'} id={'team-id'}>
+      <Navbar />
+      <h1 className="md-padding-top">Product Development Team</h1>
+
       <CardDeck className={'deck-container'}>
+
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
           <CardBody>
@@ -76,5 +80,3 @@ const TeamCard = () => {
 
 
 export default TeamCard;
-
-
