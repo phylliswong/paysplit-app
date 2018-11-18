@@ -41,6 +41,7 @@ header.navbar {
 }
 
 
-.md-margin-top {
+.md-padding {
   padding-top: 5rem;
+  padding-left: 2.5rem;
 }

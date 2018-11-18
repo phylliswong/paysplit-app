@@ -7,8 +7,7 @@ import Navbar from '../navbar/navbar.js'
 const TeamCard = () => {
   return (
     <div className={'react-transition rotate-in'} id={'team-id'}>
-      <Navbar />
-      <h1 className="md-padding-top">Product Development Team</h1>
+      <h1 className="md-padding">Product Development Team</h1>
 
       <CardDeck className={'deck-container'}>
 
