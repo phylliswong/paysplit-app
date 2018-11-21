@@ -13,8 +13,8 @@ const navbar = props => (
       <div className="spacer"/>
       <div className="navbar-navigation-items">
         <ul>
-          <li><a href="#product-id">Product</a></li>
-          <li><a href="#team-id">Team</a></li>
+          <li><a href="#info">Product</a></li>
+          <li><a href="#footer">Contact us</a></li>
         </ul>
       </div> {/* END toolbar-navigation-items */}
     </nav>
@@ -22,3 +22,4 @@ const navbar = props => (
 );
 
 export default navbar;
+

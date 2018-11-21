@@ -21,24 +21,34 @@
 }
 
 .footer-sections {
+	position: relative;
+	margin: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-
+	padding-left: 2rem;
 }
 
-/*.about-us {*/
-	/*width: 300px;*/
-	/*display: flex;*/
-	/*flex-direction: column;*/
-	/*justify-content: flex-start;*/
-	/*align-items: flex-start;*/
-/*}*/
-/*.about-us p {*/
-	/*margin-left: -0.25rem;*/
-	/*margin-bottom: 2rem;*/
-	/*padding: 0;*/
-	/*width: 200px;*/
-	/*display: inline-block;*/
-	/*align-text: left;*/
-/*} */
+.about-content{
+	text-align: left;
+	max-width: 300px;
+}
+
+.email-input {
+	background-color: rgba(0,0,0,0.1);
+	color: red;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.input-section {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.btn-submit {
+	margin-left: 10px;
+	border: none;
+	border-radius: 5rem;
+}
+
