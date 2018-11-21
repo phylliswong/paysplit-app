@@ -5,6 +5,7 @@
 }
 
 .team-title {
+	color: var(--dark-blue);
 	font-weight: 600;
 }
 
