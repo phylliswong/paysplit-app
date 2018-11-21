@@ -52,3 +52,24 @@
 	border-radius: 5rem;
 }
 
+.footer-mailgun {
+	padding-top: 2rem;
+	text-decoration: none;
+	color: white;
+}
+
+.footer-feat {
+	text-decoration: none;
+}
+
+.footer-feat:hover {
+	text-decoration: none;
+	color: lightblue;
+}
+footer-feat:after {
+	color: white;
+}
+.footer-mailgun:hover {
+	text-decoration: none;
+}
+

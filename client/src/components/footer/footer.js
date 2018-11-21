@@ -19,7 +19,8 @@ class Footer extends Component {
           </div>
           <div className="footer-sections col-md-12 col-lg-4 sm-m-15px-tb md-m-30px-b">
             <h4>Product</h4>
-            <a href="#info">Product</a>
+            <a className={'footer-feat'} href="#info">Features</a>
+            <a  className={'footer-mailgun'} href={'#/'}><h4>Contact Us</h4></a>
           </div>
           <div className="footer-sections col-md-12 col-lg-4 sm-m-15px-tb md-m-30px-b">
             <h4>Subscribe</h4>
