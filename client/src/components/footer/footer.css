@@ -1,18 +1,44 @@
 .footer-container {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-	clear: both;
 	position: relative;
 	z-index: 10;
-	height: 5em;
+	height: 100%;
 	margin-top: calc(100vh);
-	background-color: var(--dark-blue);
+	align-items: space-between;
 	padding-top: 1rem;
-}
-
-.footer-text {
-	position: relative;
+	width: 100%;
+	background-color: #323d65;
 	color: white;
 }
+
+.titles-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 3rem;
+	color: white;
+}
+
+.footer-sections {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+}
+
+/*.about-us {*/
+	/*width: 300px;*/
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*justify-content: flex-start;*/
+	/*align-items: flex-start;*/
+/*}*/
+/*.about-us p {*/
+	/*margin-left: -0.25rem;*/
+	/*margin-bottom: 2rem;*/
+	/*padding: 0;*/
+	/*width: 200px;*/
+	/*display: inline-block;*/
+	/*align-text: left;*/
+/*} */
