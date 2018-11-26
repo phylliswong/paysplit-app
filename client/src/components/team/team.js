@@ -60,8 +60,26 @@ const TeamCard = () => {
             <a href={'https://github.com/PhyllisWong'}>github</a>
           </CardBody>
         </Card>
+<<<<<<< HEAD
         <Card className={'card-container'}>
           <CardImg className={'card-img'} src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+=======
+
+
+        <Card>
+          <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+          <CardBody>
+            <CardTitle>Joe Rezendes</CardTitle>
+            <CardSubtitle>Front End Developer</CardSubtitle>
+            <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
+            <a href={'https://github.com/joerez'}>github</a>
+          </CardBody>
+        </Card>
+
+
+        <Card>
+          <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+>>>>>>> 9277938610f4483d0a063e866e04a8cdbe56a309
           <CardBody>
             <CardTitle className={'card-name'}>Johnathan Chen</CardTitle>
             <CardSubtitle className={'card-subtitle'}>Frontend Developer</CardSubtitle>
@@ -77,5 +95,3 @@ const TeamCard = () => {
 
 
 export default TeamCard;
-
-
