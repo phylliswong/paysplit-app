@@ -16,6 +16,7 @@ const navbar = props => (
         <ul>
           <li><a href="#info">Product</a></li>
           <li><a href="#footer">Contact us</a></li>
+          <Link to="/team">Team</Link>
         </ul>
       </div> {/* END toolbar-navigation-items */}
     </nav>
