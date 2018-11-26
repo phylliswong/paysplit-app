@@ -1,6 +1,7 @@
 {
 	"name": "paysplit-app",
 	"version": "1.0.0",
+	"license": "MIT",
 	"scripts": {
 		"client": "cd client && yarn start",
 		"server": "nodemon server.js",

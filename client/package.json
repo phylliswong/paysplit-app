@@ -2,6 +2,7 @@
   "name": "paysplit-app",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "bootstrap": "4.1.3",
     "jquery": "1.9.1",
