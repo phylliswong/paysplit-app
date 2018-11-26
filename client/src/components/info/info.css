@@ -1,16 +1,24 @@
 .info-container {
-	position: relative;
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	top: 600px;
+	top: 500px;
 	height: 500px;
-	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./stock-photo-group-of-people-dining-concept-520182778.jpg");
-	background-size: cover;
+	background-color: red;
+	/*background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./stock-photo-group-of-people-dining-concept-520182778.jpg");*/
+	/*background-size: cover;*/
 }
 
 .info-container h1 {
 	color: white;
+}
+
+.carousel.slide {
+	padding: 6rem 0;
+	top: 600px;
+	width: 100%;
+	background-color: var(--medium-blue);
 }
 
 /*.info-container {*/

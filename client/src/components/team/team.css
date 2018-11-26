@@ -1,11 +1,38 @@
 
 .team-container {
-	margin: 3rem;
-	padding-top: 2rem;
-	height: 80%;
+	padding-bottom: 3rem;
+	height: 100%;
+}
 
+.team-title {
+	color: var(--dark-blue);
+	font-weight: 600;
 }
 
 .deck-container {
 	margin: 3rem;
+}
+
+.card-name {
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.card-container {
+	border: 2px solid var(--charcoal-color);
+	border-radius: 2rem;
+}
+
+.card-subtitle {
+	margin-bottom: .5rem;
+}
+
+.card-img {
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
+	top: 0;
+	width: 100%;
+}
+.card-links {
+	bottom: 0;
 }
