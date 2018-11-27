@@ -36,3 +36,24 @@
 .card-links {
 	bottom: 0;
 }
+
+.elliot-img {
+	background: url("Elliot2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.anisha-img{
+	background: url("anisha.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.no-img-img {
+	background: url("no-img.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
