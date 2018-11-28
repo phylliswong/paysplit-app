@@ -25,7 +25,6 @@ class App extends Component {
           <div className="transition-container">
             <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
 
-
             <Route exact path="/" component={Landing} />
             <Route exact path="/team" component={TeamCard} />
 
