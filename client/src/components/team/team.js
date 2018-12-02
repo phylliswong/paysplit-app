@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
   CardSubtitle, CardBody } from 'reactstrap';
 import './team.css'
-import Navbar from '../navbar/navbar.js'
 
 const TeamCard = () => {
   return (
