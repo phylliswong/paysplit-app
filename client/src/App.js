@@ -6,7 +6,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import Landing from './components/Landing';
 import Hero from "./components/hero/hero";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/navbar/navbar";
 import Mission from "./components/mission/mission";
 import Info from './components/info/info';
 import TeamCard from './components/team/team';

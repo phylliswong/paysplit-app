@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import logo from './logo.svg';
 import './hero.css'
 
 class Hero extends Component {
@@ -12,9 +11,9 @@ class Hero extends Component {
           <p>An easy way to split the bill between friends</p>
           <div className="call-to-action-btn">
             { /*change this redirect link when you have the launched address */}
-            <button><a href='/'>Try Paysplit</a></button>
           </div>
         </div>
+	        <button className={'hero-btn'}><a href='/'>Try Paysplit</a></button>
       </div>
     )
   }

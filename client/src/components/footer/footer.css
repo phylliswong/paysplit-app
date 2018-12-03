@@ -1,13 +1,80 @@
 .footer-container {
-	clear: both;
+	display: flex;
+	flex-direction: column;
 	position: relative;
 	z-index: 10;
-	height: 3em;
-	margin-top: calc(100vh - 5rem);
-	background-color: var(--dark-blue);
+	height: 100%;
+	margin-top: calc(100vh);
+	align-items: space-between;
+	padding-top: 1rem;
+	width: 100%;
+	background-color: #323d65;
+	color: white;
+}
+
+.titles-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 3rem;
+	color: white;
+}
+
+.footer-sections {
+	position: relative;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 2rem;
+}
+
+.about-content{
+	text-align: left;
+	max-width: 300px;
+}
+
+.email-input {
+	background-color: rgba(0,0,0,0.1);
+	color: red;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.input-section {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.btn-submit {
+	margin-left: 10px;
+	border: none;
+	border-radius: 5rem;
+}
+
+.footer-mailgun {
+	padding-top: 2rem;
+	text-decoration: none;
+	color: white;
+}
+
+.footer-feat {
+	text-decoration: none;
+}
+
+.footer-feat:hover {
+	text-decoration: none;
+	color: lightblue;
+}
+footer-feat:after {
+	color: white;
+}
+.footer-mailgun:hover {
+	text-decoration: none;
 }
 
 .footer-text {
-	position: relative;
-	color: white;
+	display: flex;
+	justify-content: center;
 }
+
