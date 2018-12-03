@@ -6,9 +6,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import Landing from './components/Landing';
 import Hero from "./components/hero/hero";
-import Navbar from "./components/navbar/navbar";
-import SideDrawer from "./components/navbar/sideDrawer";
-import Backdrop from "./components/navbar/backdrop";
+import Navbar from "./components/navbar/Navbar";
 import Mission from "./components/mission/mission";
 import Info from './components/info/info';
 import TeamCard from './components/team/team';
@@ -22,14 +20,13 @@ class App extends Component {
   render() {
     return (
         <BrowserRouter>
-          <div className="transition-container">
-            <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
-
-
-            <Route exact path="/" component={Landing} />
-            <Route exact path="/team" component={TeamCard} />
-
-            <Footer />
+          <div>
+            <Navbar />
+            <div className="transition-container">
+              <Route exact path="/" component={Landing} />
+              <Route exact path="/team" component={TeamCard} />
+              <Footer />
+            </div>
           </div>
         </BrowserRouter>
     );
