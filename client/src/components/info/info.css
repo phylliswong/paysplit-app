@@ -6,8 +6,6 @@
 	top: 500px;
 	height: 500px;
 	background-color: red;
-	/*background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./stock-photo-group-of-people-dining-concept-520182778.jpg");*/
-	/*background-size: cover;*/
 }
 
 .info-container h1 {
@@ -19,19 +17,20 @@
 	top: 600px;
 	width: 100%;
 	background-color: var(--medium-blue);
+  background-color: lightgrey;
 }
 
-/*.info-container {*/
-	/*position: relative;*/
-/*}*/
+.info-container {
+	position: relative;
+}
 
-/*.info-container::before {*/
-	/*content: "";*/
-	/*position: absolute;*/
-	/*top: 0;*/
-	/*left: 0;*/
-	/*right: 0;*/
-	/*bottom: 0;*/
-	/*!* Adjust the color values to achieve desired darkness *!*/
-	/*background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));*/
-/*}*/
+.info-container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	/* !* Adjust the color values to achieve desired darkness *! */
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+}
