@@ -12,8 +12,10 @@
 	"dependencies": {
 		"browser-router": "^0.2.0",
 		"debug": "^4.1.0",
-		"express": "^4.16.2",
+		"express": "^4.16.4",
+		"express-favicon": "^2.0.1",
 		"is-extendable": "^1.0.1",
+		"path": "^0.12.7",
 		"react": "^16.6.3",
 		"react-router-dom": "^4.3.1",
 		"yarn": "^1.12.3"

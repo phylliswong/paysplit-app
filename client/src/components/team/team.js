@@ -14,7 +14,7 @@ const TeamCard = () => {
           <CardImg top width="100%" className={'elliot-img'} />
           <CardBody>
             <CardTitle>Elliot Oliveira</CardTitle>
-            <CardSubtitle>Project Manager, Lead Engineer</CardSubtitle>
+            <CardSubtitle>Project Manager / Lead Engineer</CardSubtitle>
             <CardText>
               Elliot Briant is currently based in San Francisco, CA. Elliot is a creative and ambitious software developer.
               He also approaches any environment as an opportunity to utilize his experience with a variety of computer
@@ -25,25 +25,27 @@ const TeamCard = () => {
         </Card>
 
         <Card>
-          <CardImg top width="100%" className={'no-img-img'} />
+          <CardImg top width="100%" className={'sam-img'} />
           <CardBody>
             <CardTitle>Sam Galizia</CardTitle>
             <CardSubtitle>Lead Backend Developer</CardSubtitle>
             <CardText>
-              This card has supporting text below as a natural lead-in to additional content.
+              Sam is a passionate Backend Web Developer & Dev Ops enthusiast. You can probably find him attempting
+              to automate everything he can in his workflow. Or he is playing video games...50/50 chance of either.
             </CardText>
             <a href={'https://github.com/sgalizia'}>github</a>
           </CardBody>
         </Card>
 
         <Card>
-          <CardImg top width="100%" className={'no-img-img'} />
+          <CardImg top width="100%" className={'tony-img'} />
           <CardBody>
             <CardTitle>Tony Cioara</CardTitle>
             <CardSubtitle>Lead iOS Developer</CardSubtitle>
             <CardText>
-              This is a wider card with supporting text below as a natural lead-in to additional content.
-              This card has even longer content than the first to show that equal height action.
+              Tony is a full stack developer based in San Francisco, CA. He has multiple projects under his belt,
+              ranging from APIs to iOS apps and games. He has a love for challenging programming problems, as well as
+              outdoor activities.
             </CardText>
             <a href={'https://github.com/TonyCioara'}>github</a>
           </CardBody>
@@ -65,7 +67,7 @@ const TeamCard = () => {
         </Card>
 
         <Card>
-          <CardImg top width="100%" className={'no-img-img'} />
+          <CardImg top width="100%" className={'phyllis-img'} />
           <CardBody>
             <CardTitle>Phyllis Wong</CardTitle>
             <CardSubtitle>Lead Frontend Developer</CardSubtitle>
@@ -80,10 +82,10 @@ const TeamCard = () => {
 
 
         <Card>
-          <CardImg top width="100%" className={'no-img-img'} />
+          <CardImg top width="100%" className={'joe-img'} />
           <CardBody>
             <CardTitle>Joe Rezendes</CardTitle>
-            <CardSubtitle>Front End Developer</CardSubtitle>
+            <CardSubtitle>Frontend Developer</CardSubtitle>
             <CardText>
               Joe Rezendes specializes in developing great user experiences. He has a passion for adding eccentric touches
               to the web. In 2016, Joe started teaching 4th and 5th graders basic front end development skills, and in
@@ -100,15 +102,17 @@ const TeamCard = () => {
           <CardImg top width="100%" className={'no-img-img'} />
           <CardBody>
             <CardTitle>Johnathan Chen</CardTitle>
-            <CardSubtitle>Frontend Developer/ UI/UX</CardSubtitle>
-            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content.
-              This card has even longer content than the first to show that equal height action.</CardText>
+            <CardSubtitle>UI/UX Developer</CardSubtitle>
+            <CardText>
+              This is a wider card with supporting text below as a natural lead-in to additional content.
+              This card has even longer content than the first to show that equal height action.
+            </CardText>
             <a href={'https://github.com/johnathanachen'}>github</a>
           </CardBody>
         </Card>
 
         <Card>
-          <CardImg top width="100%" className={'no-img-img'} />
+          <CardImg top width="100%" className={'vincenzo-img'} />
           <CardBody>
             <CardTitle>Vincenzo Marcella</CardTitle>
             <CardSubtitle>iOS Developer</CardSubtitle>
@@ -125,9 +129,11 @@ const TeamCard = () => {
           <CardImg top width="100%" className={'anisha-img'}/>
           <CardBody>
             <CardTitle>Anisha Jain</CardTitle>
-            <CardSubtitle>iOS Developer/Designer</CardSubtitle>
-            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content.
-              This card has even longer content than the first to show that equal height action.</CardText>
+            <CardSubtitle>iOS Developer / Designer</CardSubtitle>
+            <CardText>
+              This is a wider card with supporting text below as a natural lead-in to additional content.
+              This card has even longer content than the first to show that equal height action.
+            </CardText>
             <a href={'https://github.com/PhyllisWong'}>github</a>
           </CardBody>
         </Card>
