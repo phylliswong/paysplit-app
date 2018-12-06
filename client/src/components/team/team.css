@@ -38,7 +38,7 @@
 }
 
 .elliot-img {
-	background: url("Elliot2.jpg");
+	background: url("elliot.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 300px;
@@ -51,9 +51,45 @@
 	height: 300px;
 }
 
+.sam-img {
+	background: url("sam.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.joe-img {
+	background: url("joe.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.tony-img{
+	background: url("tony.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.phyllis-img {
+	background: url("phyllis.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.vincenzo-img {
+	background: url("vincenzo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
 .no-img-img {
 	background: url("no-img.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 300px;
 }
+
