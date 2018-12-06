@@ -1,33 +1,32 @@
-
 .mission-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	height: 600px;
-	width: 200%;
-	left: -50%;
-	background-color: var(--dark-blue);
-	transform: rotate(-5deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 600px;
+  width: 200%;
+  left: -50%;
+  background-color: var(--dark-blue);
+  transform: rotate(-5deg);
 }
 
 .mission-content {
-	transform: rotate(5deg);
+  transform: rotate(5deg);
 }
 
 .mission-title {
-	margin-top: -7rem;
+  margin-top: -7rem;
 
-	position: relative;
-	color: white;
-	font-size: 2.2rem;
-	font-weight: 450;
+  position: relative;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 450;
 }
 
 .mission-content {
-	position: relative;
-	margin: 0;
-	width: 80vw;
-	color: white;
+  position: relative;
+  margin: 0;
+  width: 80vw;
+  color: white;
 }

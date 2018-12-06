@@ -1,7 +1,7 @@
 .transition-container {
   perspective: 800px;
+  overflow: hidden;
 }
-
 
 .react-transition {
   animation-fill-mode: both;
@@ -9,12 +9,12 @@
 
 @keyframes swipeUp {
   from {
-    transform: translate3d(0,100vh,0);
+    transform: translate3d(0, 100vh, 0);
     opacity: 0;
   }
 
   to {
-    transform: translate3d(0,0vh,0);
+    transform: translate3d(0, 0vh, 0);
     opacity: 1;
   }
 }
@@ -26,15 +26,14 @@
   animation-duration: 250ms;
 }
 
-
 @keyframes swipeLeft {
   from {
-    transform: translate3d(-1000px,0,0);
+    transform: translate3d(-1000px, 0, 0);
     opacity: 0;
   }
 
   to {
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     opacity: 1;
   }
 }
@@ -46,15 +45,14 @@
   animation-duration: 300ms;
 }
 
-
 @keyframes swipeRight {
   from {
-    transform: translate3d(1000px,0,0);
+    transform: translate3d(1000px, 0, 0);
     opacity: 0;
   }
 
   to {
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     opacity: 1;
   }
 }
@@ -66,16 +64,14 @@
   animation-duration: 300ms;
 }
 
-
-
 @keyframes swipeDown {
   from {
-    transform: translate3d(0,-100vh,0);
+    transform: translate3d(0, -100vh, 0);
     opacity: 0;
   }
 
   to {
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
     opacity: 1;
   }
 }
@@ -104,14 +100,13 @@
   animation-duration: 250ms;
 }
 
-
 @keyframes scaleIn {
   from {
-    transform: translateY(-500px) scale(.01);
+    transform: translateY(-500px) scale(0.01);
   }
 
   to {
-    transform:  scale(1);
+    transform: scale(1);
   }
 }
 
@@ -124,11 +119,11 @@
 
 @keyframes scaleInRight {
   from {
-    transform: translateY(-500px) translateX(500px) scale(.01);
+    transform: translateY(-500px) translateX(500px) scale(0.01);
   }
 
   to {
-    transform:  scale(1);
+    transform: scale(1);
   }
 }
 
@@ -141,11 +136,11 @@
 
 @keyframes scaleInLeft {
   from {
-    transform: translateY(-500px) translateX(-500px) scale(.01);
+    transform: translateY(-500px) translateX(-500px) scale(0.01);
   }
 
   to {
-    transform:  scale(1);
+    transform: scale(1);
   }
 }
 
@@ -156,15 +151,13 @@
   animation-duration: 250ms;
 }
 
-
-
 @keyframes dropIn {
   from {
     transform: scale(4) translateY(400px);
   }
 
   to {
-    transform:  scale(1);
+    transform: scale(1);
   }
 }
 
@@ -175,14 +168,13 @@
   animation-duration: 250ms;
 }
 
-
 @keyframes dropInRight {
   from {
     transform: scale(4) translateY(400px) translateX(400px);
   }
 
   to {
-    transform:  scale(1);
+    transform: scale(1);
   }
 }
 
@@ -193,14 +185,13 @@
   animation-duration: 250ms;
 }
 
-
 @keyframes dropInLeft {
   from {
     transform: scale(4) translateY(400px) translateX(-400px);
   }
 
   to {
-    transform:  scale(1);
+    transform: scale(1);
   }
 }
 
@@ -210,7 +201,6 @@
   animation-name: dropInLeft;
   animation-duration: 250ms;
 }
-
 
 @keyframes flipInX {
   from {
@@ -254,15 +244,13 @@
   animation-duration: 300ms;
 }
 
-
-
 @keyframes flipInY {
   from {
-    transform:  rotateY(90deg);
+    transform: rotateY(90deg);
   }
 
   70% {
-    transform:  rotateY(-10deg);
+    transform: rotateY(-10deg);
   }
 
   to {
@@ -279,11 +267,11 @@
 
 @keyframes flipInYReverse {
   from {
-    transform:  rotateY(-90deg);
+    transform: rotateY(-90deg);
   }
 
   70% {
-    transform:  rotateY(10deg);
+    transform: rotateY(10deg);
   }
 
   to {
@@ -298,10 +286,9 @@
   transform-style: preserve-3d;
 }
 
-
 @keyframes rotateIn {
   from {
-    transform: scale(.1)  rotate(180deg);
+    transform: scale(0.1) rotate(180deg);
   }
 
   70% {
@@ -320,11 +307,9 @@
   transform-style: preserve-3d;
 }
 
-
-
 @keyframes rotateInReverse {
   from {
-    transform: scale(.1)  rotate(-180deg);
+    transform: scale(0.1) rotate(-180deg);
   }
 
   70% {
@@ -345,17 +330,17 @@
 
 @keyframes woah {
   from {
-    transform: scale(.001) translateX(200px);
+    transform: scale(0.001) translateX(200px);
   }
 
   25% {
-    transform: scale(.25) rotateY(180deg) translateX(100px) translateY(100px);
+    transform: scale(0.25) rotateY(180deg) translateX(100px) translateY(100px);
   }
 
   50% {
-    transform: scale(.5) rotateY(0deg) rotateX(180deg) translateX(-100px) translateY(600px);
+    transform: scale(0.5) rotateY(0deg) rotateX(180deg) translateX(-100px)
+      translateY(600px);
   }
-
 }
 
 .woah {
