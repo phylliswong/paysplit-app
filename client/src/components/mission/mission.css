@@ -6,14 +6,15 @@
 	align-items: center;
 	position: absolute;
 	height: 600px;
-	width: 200%;
-	left: -50%;
+	/* width: 200%; */
+  width: 100%;
+	/* left: -50%; */
 	background-color: var(--dark-blue);
-	transform: rotate(-5deg);
+	/* transform: rotate(-5deg); */
 }
 
 .mission-content {
-	transform: rotate(5deg);
+	/* transform: rotate(5deg); */
 }
 
 .mission-title {

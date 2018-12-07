@@ -4,7 +4,7 @@
 	position: relative;
 	z-index: 10;
 	height: 100%;
-	margin-top: calc(100vh);
+	margin-top: calc(90vh);
 	align-items: space-between;
 	padding-top: 1rem;
 	width: 100%;
@@ -77,4 +77,3 @@ footer-feat:after {
 	display: flex;
 	justify-content: center;
 }
-
