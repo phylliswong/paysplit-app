@@ -3,14 +3,10 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 // COMPONENTS
 import Landing from './components/Landing';
-<<<<<<< HEAD
 import Hero from "./components/hero/hero";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/navbar/navbar";
 import Mission from "./components/mission/mission";
 import Info from './components/info/info';
-=======
-import Navbar from "./components/navbar/navbar";
->>>>>>> def6b9833e8518d4a6ddd03454708a1b84ca3a01
 import TeamCard from './components/team/team';
 import Footer from './components/footer/footer';
 

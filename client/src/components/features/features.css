@@ -1,0 +1,46 @@
+.features {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #ecf0f1;
+}
+
+.feature-headline {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.blue {
+  color: #341f97;
+}
+
+.feature-cards {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feature-card {
+  background: white;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 6px;
+  border: solid 1px #bdc3c7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.feature-icon {
+  height: 33%;
+  width: auto;
+}

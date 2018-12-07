@@ -49,25 +49,10 @@ class Navbar extends Component {
           <li><Link onClick={this.onHandleClick} to="/team">Team</Link></li>
         </nav>
       </div>
-<<<<<<< HEAD
-      <div className="navbar-logo"><Link to="/">PAYSPLIT</Link></div>
-      <div className="spacer"/>
-      <div className="navbar-navigation-items">
-        <ul>
-          <li><a href="#info">Product</a></li>
-          <li><a href="#footer">Contact us</a></li>
-          <Link to="/team">Team</Link>
-        </ul>
-      </div> {/* END toolbar-navigation-items */}
-    </nav>
-  </header>
 );
 
-export default navbar;
-=======
-    )
+    
   }
 }
 
 export default Navbar;
->>>>>>> e4567c50cb684bcba2ed839d80d55e1019786d98

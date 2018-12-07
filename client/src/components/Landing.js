@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 // COMPONENTS
 import Hero from "./hero/hero";
+import Features from './features/Features';
 import Mission from "./mission/mission";
 import Info from './info/info';
 import TeamCard from './team/team';
@@ -50,6 +51,8 @@ class Landing extends Component {
         <div className={'mission-component'}>
           <Mission/>
         </div>
+        <Features />
+
         <div className={'info-component'}>
           <Info />
         </div>
