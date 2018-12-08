@@ -78,14 +78,13 @@ nav li a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    height: 110vh;
+    height: 116vh;
     width: 0%;
     transition: width 250ms;
     z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     background: #007AFFD6;
   }
 
