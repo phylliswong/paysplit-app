@@ -4,9 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 // COMPONENTS
 import Hero from "./hero/hero";
-import Navbar from "./navbar/navbar";
-import SideDrawer from "./navbar/sideDrawer";
-import Backdrop from "./navbar/backdrop";
+import Features from './features/Features';
 import Mission from "./mission/mission";
 import Info from './info/info';
 import TeamCard from './team/team';
@@ -47,19 +45,14 @@ class Landing extends Component {
   };
 
   render() {
-    let backDrop;
-
-    if (this.state.sideDrawerOpen) {
-      backDrop = <Backdrop click={this.backdropClickHandler} />;
-    }
     return (
       <div className="App react-transition drop-in">
-        <SideDrawer show={this.state.sideDrawerOpen} />
-        {backDrop}
         <Hero />
         <div className={'mission-component'}>
           <Mission/>
         </div>
+        <Features />
+
         <div className={'info-component'}>
           <Info />
         </div>
