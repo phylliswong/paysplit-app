@@ -17,23 +17,23 @@ import cash from './cash.jpg';
 const items = [
 	{
 		src: friends,
-		altText: 'Slide 1',
-		caption: 'Slide 1'
+    altText: 'Eat dinner out with friends',
+		caption: 'Eat dinner out with friends'
 	},
 	{
 		src: dining,
-		altText: 'Slide 2',
-		caption: 'Slide 2'
+		altText: 'Enjoy your life',
+		caption: 'Enjoy your life'
 	},
 	{
 		src: billSplit,
-		altText: 'Slide 3',
-		caption: 'Slide 3'
+		altText: 'Too many credit cards is a mess',
+		caption: 'Too many credit cards is a mess'
 	},
 	{
 		src: cash,
-		altText: 'Slide 4',
-		caption: 'Slide 4'
+		altText: 'Who pays with cash anymore',
+		caption: 'Who pays with cash anymore'
 	}
 ];
 
@@ -89,7 +89,7 @@ class Info extends Component {
 					key={item.src}
 				>
 					<img src={item.src} alt={item.altText} style={style}/>
-					<CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+					<CarouselCaption captionHeader={item.caption} className='caption'/>
 				</CarouselItem>
 			);
 		});

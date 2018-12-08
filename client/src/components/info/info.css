@@ -14,7 +14,7 @@
 
 .carousel.slide {
 	padding: 6rem 0;
-	top: 600px;
+	/* top: 600px; */
 	width: 100%;
 	background-color: var(--medium-blue);
   background-color: lightgrey;
@@ -22,6 +22,10 @@
 
 .info-container {
 	position: relative;
+}
+
+.caption {
+  text-shadow: 1px 1px 1px black;
 }
 
 .info-container::before {
