@@ -63,3 +63,28 @@
 		transform: rotate(360deg);
 	}
 }
+
+@media (max-width: 768px) {
+
+  .hero {
+    padding: 0;
+    margin-left: 1rem;
+  }
+  .hero h1 {
+    position: relative;
+    width: 100%;
+    font-size: 5vh;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .hero p {
+    font-size: 4vh;
+  }
+
+  .hero button {
+    font-size: 4vh;
+    flex-wrap: wrap;
+    min-height: 2rem;
+  }
+}
