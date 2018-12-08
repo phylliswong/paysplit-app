@@ -1,8 +1,16 @@
-import React, { Component }from 'react';
-import './features.css';
-import {TweenLite as Tween,TimelineMax as Timeline, TweenLite, Ease, Back, Elastic, Bounce} from 'gsap';
+import React, { Component } from 'react';
+import {
+    TweenLite as Tween,
+    TimelineMax as Timeline,
+    TweenLite,
+    Ease,
+    Back,
+    Elastic,
+    Bounce
+  } from 'gsap';
 
 import ScrollMagic from "./plugin.js"; // my own wrapper for scrollmagic that includes greensock
+import './features.css';
 
 class Features extends Component {
 

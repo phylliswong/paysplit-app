@@ -1,5 +1,9 @@
 import ScrollMagic from 'scrollmagic';
-import {TweenLite as Tween,TimelineMax as Timeline, TweenLite} from 'gsap';
+import {
+  TweenLite as Tween,
+  TimelineMax as Timeline,
+  TweenLite
+} from 'gsap';
 
 ScrollMagic.Scene.addOption("tweenChanges", // name
   false, // default
