@@ -32,20 +32,20 @@ class Navbar extends Component {
     return (
       <div className="fixed">
         <nav className="desktop-nav">
-          <li><Link to="/">PaySplit</Link></li>
+          <li><Link className="nav-link" to="/">PaySplit</Link></li>
           <div className="right-nav">
-            <li><Link to="/">Product</Link></li>
-            <li><Link to="/">Contact Us</Link></li>
-            <li><Link to="/team">Team</Link></li>
+            <li><Link className="nav-link" to="/">Product</Link></li>
+            <li><Link className="nav-link" to="/">Contact Us</Link></li>
+            <li><Link className="nav-link" to="/team">Team</Link></li>
           </div>
         </nav>
 
         <button onClick={this.onHandleClick} className={'mobile-nav-btn ' + this.state.mobileMenu.className}>☰</button>
         <nav className={'mobile-nav ' + this.state.mobileMenu.className} style={{width: this.state.mobileMenu.width, padding: this.state.mobileMenu.padding}}>
-          <li><Link onClick={this.onHandleClick} className="mob-menu-logo" to="/">PaySplit</Link></li>
-          <li><Link onClick={this.onHandleClick} to="/">Product</Link></li>
-          <li><Link onClick={this.onHandleClick} to="/">Contact Us</Link></li>
-          <li><Link onClick={this.onHandleClick} to="/team">Team</Link></li>
+          <li><Link onClick={this.onHandleClick} className="mob-menu-logo nav-link-mob" to="/">PaySplit</Link></li>
+          <li><Link onClick={this.onHandleClick} className="nav-link-mob" to="/">Product</Link></li>
+          <li><Link onClick={this.onHandleClick} className="nav-link-mob" to="/">Contact Us</Link></li>
+          <li><Link onClick={this.onHandleClick} className="nav-link-mob" to="/team">Team</Link></li>
         </nav>
       </div>
 );
