@@ -27,8 +27,10 @@ class Footer extends Component {
             <h4>Subscribe</h4>
             <p>Sign up for our news letter</p>
             <div className={'input-section'}>
-              <input className={'email-input'} placeholder={'enter email'}></input>
-              <button className={'btn-submit'}>submit</button>
+              <form action="/api/emails/join" method="POST">
+              <input className={'email-input'} name="email" placeholder={'enter email'}></input>
+              <input type="submit" className={'btn-submit'}/>
+              </form>
             </div>
           </div>
 
