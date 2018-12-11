@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 var mailgun = require("mailgun-js");
-var api_key = 'key-b2e232b515e23a91805b4ca0ae9c098a';
+var api_key = process.env.MAILGUN_API_KEY;
 var domain = 'sandbox327e859bafc442479e7384439df8c22c.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 
