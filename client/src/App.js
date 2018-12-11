@@ -10,6 +10,8 @@ import Info from './components/info/info';
 import TeamCard from './components/team/team';
 import Footer from './components/footer/footer';
 import Contact from './components/contact/contact';
+import Thanks from './components/contact/thanks';
+
 
 import "./react-transitions.css";
 import "./App.css";
@@ -25,6 +27,8 @@ class App extends Component {
               <Route exact path="/" component={Landing} />
               <Route exact path="/team" component={TeamCard} />
               <Route exact path="/contact" component={Contact} />
+              <Route exact path="/thanks" component={Thanks} />
+
               <Footer />
             </div>
           </div>
