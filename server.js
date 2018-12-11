@@ -5,6 +5,7 @@ var mailgun = require("mailgun-js");
 var api_key = process.env.MAILGUN_API_KEY;
 var domain = 'sandbox327e859bafc442479e7384439df8c22c.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
+require('dotenv').config();
 
 
 const mongoose = require("mongoose");
