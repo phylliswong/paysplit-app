@@ -21,10 +21,9 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background: #007AFF;
+  background: white;
   z-index: 10000000000000;
   padding-left: 1rem;
-  box-shadow: 1px 0px 2px 1px rgba(0,0,0,.3);
 }
 
 nav li {
@@ -32,15 +31,20 @@ nav li {
   list-style: none;
 }
 
-nav li a {
-  color: white;
+.nav-link {
+  color: #007AFF;
   margin-right: 1rem;
   transition: all 200ms;
+  text-shadow: #282c34;
 }
 
-nav li a:hover {
-  color: gold;
+.nav-link:hover {
+  color: black;
   text-decoration: none;
+}
+
+.nav-link-mob {
+  color: white;
 }
 
 .right-nav {
@@ -112,6 +116,11 @@ nav li a:hover {
 
   .mob-menu-logo {
     font-size: 4rem;
+  }
+
+
+  .nav-link-mob {
+    color: white;
   }
 
 }

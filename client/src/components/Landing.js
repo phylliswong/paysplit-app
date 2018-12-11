@@ -1,5 +1,16 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route } from 'react-router-dom';
+import {
+    TweenLite as Tween,
+    TimelineMax as Timeline,
+    TweenLite,
+    Ease,
+    Back,
+    Elastic,
+    Bounce
+  } from 'gsap';
+
+import ScrollMagic from "./plugin.js"; // my own wrapper for scrollmagic that includes greensock
 
 
 // COMPONENTS
@@ -32,7 +43,26 @@ class Landing extends Component {
     this.callApi()
       .then(res => this.setState({ response: res.express }))
       .catch(err => console.log(err));
-  }
+
+
+
+
+      var controller = new ScrollMagic.Controller();
+      var tween = new Timeline().add("new", 0).to('.desktop-nav', .2, {
+        backgroundColor: '#007AFF',
+        boxShadow: '1px 0px 2px 1px rgba(0,0,0,.3)',
+        ease: Ease.easeNone }, "new").to('.nav-link', .1, {
+          color: 'white'
+        }, "new")
+
+      var scene = new ScrollMagic.Scene({
+        triggerElement: "h1",
+        offset: 200,
+        duration: -1 }).setTween(tween).addTo(controller);
+
+    }
+
+
 
   callApi = async () => {
     // Renders what is at the route /api/hello
@@ -46,7 +76,7 @@ class Landing extends Component {
 
   render() {
     return (
-      <div className="App react-transition drop-in">
+      <div className="App react-transition fade-in">
         <Hero />
         <div className={'mission-component'}>
           <Mission/>

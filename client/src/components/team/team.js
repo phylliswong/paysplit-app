@@ -5,7 +5,7 @@ import './team.css'
 
 const TeamCard = () => {
   return (
-    <div className={'react-transition rotate-in'} id={'team-id'}>
+    <div className={'react-transition swipe-right'} id={'team-id'}>
       <h1 className="md-padding">Product Development Team</h1>
 
       <CardDeck className={'deck-container'}>

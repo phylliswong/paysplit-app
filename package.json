@@ -10,12 +10,15 @@
 		"heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
 	},
 	"dependencies": {
+		"body-parser": "^1.18.3",
 		"browser-router": "^0.2.0",
 		"debug": "^4.1.0",
-		"gsap": "^2.0.2",
 		"express": "^4.16.4",
 		"express-favicon": "^2.0.1",
+		"gsap": "^2.0.2",
 		"is-extendable": "^1.0.1",
+		"mailgun-js": "^0.22.0",
+		"mongoose": "^5.3.15",
 		"path": "^0.12.7",
 		"react": "^16.6.3",
 		"react-router-dom": "^4.3.1",
