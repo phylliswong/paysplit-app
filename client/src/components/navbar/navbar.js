@@ -35,7 +35,7 @@ class Navbar extends Component {
           <li><Link className="nav-link" to="/">PaySplit</Link></li>
           <div className="right-nav">
             <li><Link className="nav-link" to="/">Product</Link></li>
-            <li><Link className="nav-link" to="/">Contact Us</Link></li>
+            <li><Link className="nav-link" to="/contact">Contact Us</Link></li>
             <li><Link className="nav-link" to="/team">Team</Link></li>
           </div>
         </nav>
@@ -44,7 +44,7 @@ class Navbar extends Component {
         <nav className={'mobile-nav ' + this.state.mobileMenu.className} style={{width: this.state.mobileMenu.width, padding: this.state.mobileMenu.padding}}>
           <li><Link onClick={this.onHandleClick} className="mob-menu-logo nav-link-mob" to="/">PaySplit</Link></li>
           <li><Link onClick={this.onHandleClick} className="nav-link-mob" to="/">Product</Link></li>
-          <li><Link onClick={this.onHandleClick} className="nav-link-mob" to="/">Contact Us</Link></li>
+          <li><Link onClick={this.onHandleClick} className="nav-link-mob" to="/contact">Contact Us</Link></li>
           <li><Link onClick={this.onHandleClick} className="nav-link-mob" to="/team">Team</Link></li>
         </nav>
       </div>
