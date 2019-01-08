@@ -8,11 +8,12 @@ import './team.css'
 class TeamCard extends Component {
   constructor(props) {
     super(props)
-
-    let transx = 'translateX(0)'
+    let transValue = 0;
+    let transx = `translateX(${transValue})`
 
     this.state = {
-      transform: {transx}
+      transform: {transx},
+      transValue: 0
     }
 
     this.leftArrow = this.leftArrow.bind(this);
@@ -24,15 +25,19 @@ class TeamCard extends Component {
   }
 
   leftArrow() {
-    let prev = this.state.transform
-    let xTrans = 'translateX('-100+'px)';
-    let x = -100;
-    let y = 0;
-    this.setState({transform: `translate(${x}px, ${y}px)` })
+    let prev = this.state.transValue
+    if (prev != 0) {
+      prev = prev + 200;
+      this.setState({transValue: prev})
+    }
   }
 
   rightArrow() {
-
+    let prev = this.state.transValue
+    if (prev != -1200) {
+      prev = prev - 200;
+      this.setState({transValue: prev})
+    }
   }
 
   render() {
@@ -42,7 +47,7 @@ class TeamCard extends Component {
       <div onClick={() => this.leftArrow()} className="arrow-nav left-arrow">←</div>
       <div onClick={() => this.rightArrow()} className="arrow-nav right-arrow">→</div>
 
-      <div style={this.state.transform} className="team-cards">
+      <div style={{transform: `translateX(${this.state.transValue}px`}} className="team-cards">
 
 
         <PersonCard
